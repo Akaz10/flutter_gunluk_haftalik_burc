@@ -31,31 +31,8 @@ class _BurcDetayState extends State<BurcDetay>
 
   Future gunlukBurcGetir() async {
     var url;
-    if (secilenBurc!.burccAdi == "KOC") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/koc-burcu/";
-    } else if (secilenBurc!.burccAdi == "BOGA") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/boga-burcu/";
-    } else if (secilenBurc!.burccAdi == "IKIZLER") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/ikizler-burcu/";
-    } else if (secilenBurc!.burccAdi == "YENGEC") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/yengec-burcu/";
-    } else if (secilenBurc!.burccAdi == "ASLAN") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/aslan-burcu/";
-    } else if (secilenBurc!.burccAdi == "BASAK") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/basak-burcu/";
-    } else if (secilenBurc!.burccAdi == "TERAZI") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/terazi-burcu/";
-    } else if (secilenBurc!.burccAdi == "AKREP") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/akrep-burcu/";
-    } else if (secilenBurc!.burccAdi == "YAY") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/yay-burcu/";
-    } else if (secilenBurc!.burccAdi == "OGLAK") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/oglak-burcu/";
-    } else if (secilenBurc!.burccAdi == "KOVA") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/kova-burcu/";
-    } else if (secilenBurc!.burccAdi == "BALIK") {
-      url = "https://www.hurriyet.com.tr/mahmure/astroloji/balik-burcu/";
-    }
+    var burcUrl = secilenBurc!.burccAdi!.toLowerCase();
+    url = "https://www.hurriyet.com.tr/mahmure/astroloji/$burcUrl-burcu/";
     final response = await http.Client().get(Uri.parse(url));
     if (response.statusCode == 200) {
       var document = parse(response.body);
@@ -69,43 +46,8 @@ class _BurcDetayState extends State<BurcDetay>
 
   Future haftalikBurcGetir() async {
     var url;
-    if (secilenBurc!.burccAdi == "KOC") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/koc-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "BOĞA") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/boga-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "IKIZLER") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/ikizler-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "YENGEC") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/yengec-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "ASLAN") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/aslan-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "BASAK") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/basak-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "TERAZI") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/terazi-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "AKREP") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/akrep-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "YAY") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/yay-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "OGLAK") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/oglak-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "KOVA") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/kova-burcu-haftalik-yorum/";
-    } else if (secilenBurc!.burccAdi == "BALIK") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/balik-burcu-haftalik-yorum/";
-    }
+    var burcUrl = secilenBurc!.burccAdi!.toLowerCase();
+    url = "https://www.hurriyet.com.tr/mahmure/astroloji/$burcUrl-burcu-haftalik-yorum/";
     final response = await http.Client().get(Uri.parse(url));
     if (response.statusCode == 200) {
       var document = parse(response.body);
@@ -119,43 +61,8 @@ class _BurcDetayState extends State<BurcDetay>
 
   Future aylikBurcGetir() async {
     var url;
-    if (secilenBurc!.burccAdi == "KOC") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/koc-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "BOGA") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/boga-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "IKIZLER") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/ikizler-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "YENGEC") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/yengec-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "ASLAN") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/aslan-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "BASAK") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/basak-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "TERAZI") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/terazi-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "AKREP") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/akrep-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "YAY") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/yay-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "OGLAK") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/oglak-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "KOVA") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/kova-burcu-aylik-yorum/";
-    } else if (secilenBurc!.burccAdi == "BALIK") {
-      url =
-          "https://www.hurriyet.com.tr/mahmure/astroloji/balik-burcu-aylik-yorum/";
-    }
+    var burcUrl = secilenBurc!.burccAdi!.toLowerCase();
+    url = "https://www.hurriyet.com.tr/mahmure/astroloji/$burcUrl-burcu-aylik-yorum/";
     final response = await http.Client().get(Uri.parse(url));
     if (response.statusCode == 200) {
       var document = parse(response.body);
