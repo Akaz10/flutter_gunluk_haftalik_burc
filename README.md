@@ -10,9 +10,9 @@ Bu proje flutter kullanılarak geliştirilmiştir.
 - Yükselen burç hesaplama 
 - Burç uyumu hesaplama
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://i.ibb.co/ph3Ljq0/1.png)  |  ![](https://i.ibb.co/RP2nBqS/2.png)
+Solarized dark             |  Solarized Ocean | Deneme
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://i.ibb.co/ph3Ljq0/1.png)  |  ![](https://i.ibb.co/RP2nBqS/2.png)  |  ![](https://i.ibb.co/RP2nBqS/2.png)
 
 
 
