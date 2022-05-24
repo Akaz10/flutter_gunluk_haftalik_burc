@@ -26,6 +26,7 @@ class _BurcDetayState extends State<BurcDetay>
   String? haftalikBurcYorum;
   String? aylikBurcYorum;
   String? dateTr;
+  String? aylikDate;
 
 
 
@@ -97,6 +98,7 @@ class _BurcDetayState extends State<BurcDetay>
     initializeDateFormatting();
     DateTime now = DateTime.now();
     dateTr = DateFormat.MMMEd('tr').format(now);
+    aylikDate = DateFormat.MMMM('tr').format(now);
   }
 
   @override
@@ -109,19 +111,6 @@ class _BurcDetayState extends State<BurcDetay>
   Widget build(BuildContext context) {
 
     return Scaffold(
-/*      appBar: AppBar(
-        bottom: TabBar(controller: _tabController, tabs: [
-          Tab(
-            text: "Günlük",
-          ),
-          Tab(
-            text: "Haftalık",
-          ),
-          Tab(
-            text: "Aylık",
-          ),
-        ]),
-      ),*/
       body: NestedScrollView(
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
@@ -179,7 +168,7 @@ class _BurcDetayState extends State<BurcDetay>
               color: Color(0xFF181828),
               child:  Padding(
                 padding: const EdgeInsets.all(15.0),
-                child: SingleChildScrollView(
+                child: gunlukBurcYorum == null ? Center(child: CircularProgressIndicator(),) : SingleChildScrollView(
                     child: RichText(
                         text: TextSpan(
                             style: TextStyle(
@@ -214,11 +203,20 @@ class _BurcDetayState extends State<BurcDetay>
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: SingleChildScrollView(
-                  child: Center(
-                      child: Text(
-                    "   $aylikBurcYorum",
-                    style: TextStyle(fontSize: 22, color: Colors.white60),
-                  )),
+                  child: RichText(
+                      text: TextSpan(
+                          style: TextStyle(
+                            fontSize: 22,
+                            color: Colors.white60,
+                          ),
+                          children: [
+                            TextSpan(
+                                text: '   $aylikDate - ',
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white70)),
+                            TextSpan(text: aylikBurcYorum),
+                          ]))
                 ),
               ),
             ),

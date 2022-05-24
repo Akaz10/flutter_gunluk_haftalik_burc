@@ -1,24 +1,37 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_weekly_horoscope_app/burc_detay.dart';
 import 'package:flutter_weekly_horoscope_app/models/burc.dart';
 import 'package:flutter_weekly_horoscope_app/utils/strings.dart';
+import 'package:flutter_weekly_horoscope_app/widget/drawer_menu_widget.dart';
 import 'package:palette_generator/palette_generator.dart';
 import 'package:http/http.dart' as http;
 import 'package:html/parser.dart';
-
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class BurcListesi extends StatelessWidget {
   static List<Burc>? tumBurclar;
+  final VoidCallback openDrawer;
+
+
+  const BurcListesi({
+    Key? key,
+    required this.openDrawer,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-
     tumBurclar = veriKaynaginiHazirla();
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: DrawerMenuWidget(onClicked: openDrawer),
+      ),
       body: listeyiHazirla(),
-      backgroundColor: Color(0xFF181828),
+      backgroundColor: Colors.transparent, //--
     );
   }
 
@@ -48,10 +61,8 @@ class BurcListesi extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(
-              height: 10,
-            ),
             Container(
+              color: Colors.transparent,
               child: Image.asset("images/main.PNG"),
               height: 100,
               width: 100,
@@ -74,7 +85,9 @@ class BurcListesi extends StatelessWidget {
     Burc oanListeyeEklenenBurc = tumBurclar![index];
 
     return InkWell(
-      onTap: ()=> Navigator.pushNamed(context, "/burcDetay/$index"),
+      onTap: () => Navigator.push(
+          context, MaterialPageRoute(builder: (context) => BurcDetay(index))),
+      //Navigator.pushNamed(context, "/burcDetay/$index"),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
         child: Container(
@@ -82,7 +95,7 @@ class BurcListesi extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             border: Border.all(color: Colors.white70, width: 2),
-            color: Color(0xFF181828),
+            //color: Color(0xFF181828),
           ),
           height: 100,
           child: Row(
