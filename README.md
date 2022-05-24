@@ -16,12 +16,12 @@ Bu proje flutter kullanılarak yazılmıştır.
 
 ![Ornek_Resim](https://i.ibb.co/RP2nBqS/2.png)![Ornek_Resim](https://i.ibb.co/QPKzhP8/3.png)![Ornek_Resim](https://i.ibb.co/rk4GLp9/4.png)
 
-![Ornek_Resim](https://ibb.co/xz8LNnf)
+![Ornek_Resim](https://i.ibb.co/8P4sHyd/5.png)
 
-![Ornek_Resim](https://ibb.co/9pXdJ0d)
+![Ornek_Resim](https://i.ibb.co/mRsPmKP/6.png)
 
-![Ornek_Resim](https://ibb.co/zsNbBWR)
+![Ornek_Resim](https://i.ibb.co/TcrR7D8/7.png)
 
-![Ornek_Resim](https://ibb.co/P9mTbzK)
+![Ornek_Resim](https://i.ibb.co/Gtxs13y/8.png)
 
-![Ornek_Resim](https://ibb.co/VYQXXB9)
+![Ornek_Resim](https://i.ibb.co/ZzYyyTX/9.png)
