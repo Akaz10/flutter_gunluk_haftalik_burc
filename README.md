@@ -16,15 +16,26 @@ Bu proje flutter kullanılarak yazılmıştır.
 
 ![Ornek_Resim](https://i.ibb.co/ph3Ljq0/1.png)
 
+- ## Burç Yorumları: 
 
 ![Ornek_Resim](https://i.ibb.co/RP2nBqS/2.png)  ![Ornek_Resim](https://i.ibb.co/QPKzhP8/3.png)![Ornek_Resim](https://i.ibb.co/rk4GLp9/4.png)
 
+- ## Menu:
+
 ![Ornek_Resim](https://i.ibb.co/8P4sHyd/5.png)
+
+- ## Yükselen Burç Hesaplama
 
 ![Ornek_Resim](https://i.ibb.co/mRsPmKP/6.png)
 
+- ## Burç Uyumu Hesaplama:
+
 ![Ornek_Resim](https://i.ibb.co/TcrR7D8/7.png)
 
+- ## Burç Yorumu Hesaplama Detay:
+
 ![Ornek_Resim](https://i.ibb.co/Gtxs13y/8.png)
+
+- ## Kahve Falı(Yakında):
 
 ![Ornek_Resim](https://i.ibb.co/ZzYyyTX/9.png)
