@@ -10,12 +10,6 @@ Bu proje flutter kullanılarak geliştirilmiştir.
 - Yükselen burç hesaplama 
 - Burç uyumu hesaplama
 
-Solarized dark             |  Solarized Ocean | Deneme
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.ibb.co/ph3Ljq0/1.png)  |  ![](https://i.ibb.co/RP2nBqS/2.png)  |  ![](https://i.ibb.co/RP2nBqS/2.png)
-
-
-
 # Ekran Görüntüleri:
 
 - ## Burç Listesi:
@@ -24,7 +18,9 @@ Solarized dark             |  Solarized Ocean | Deneme
 
 - ## Burç Yorumları: 
 
-![Ornek_Resim](https://i.ibb.co/RP2nBqS/2.png)    |    ![Ornek_Resim](https://i.ibb.co/QPKzhP8/3.png)![Ornek_Resim](https://i.ibb.co/rk4GLp9/4.png)
+Günlük Yorum  |  Haftalık Yorum | Aylık Yorum
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://i.ibb.co/RP2nBqS/2.png)  |  ![](https://i.ibb.co/QPKzhP8/3.png)  |  ![](https://i.ibb.co/rk4GLp9/4.png)
 
 - ## Menu:
 
