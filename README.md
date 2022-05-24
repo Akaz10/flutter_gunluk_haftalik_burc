@@ -13,6 +13,7 @@ Bu proje flutter kullanılarak yazılmıştır.
 # Ekran Görüntüleri:
 
 -Burç Listesi:
+
 ![Ornek_Resim](https://i.ibb.co/ph3Ljq0/1.png)
 
 
