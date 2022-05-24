@@ -12,7 +12,7 @@ Bu proje flutter kullanılarak yazılmıştır.
 
 # Ekran Görüntüleri:
 
-![Ornek_Resim](http://qnimate.com/wp-content/uploads/2014/03/images2.jpg)
+![Ornek_Resim](https://drive.google.com/file/d/1d36pxM_-BIdfhgSQxcTuGpg2Y6LJls6u/view?usp=sharing)
 
 ![Ornek_Resim](http://qnimate.com/wp-content/uploads/2014/03/images2.jpg)
 
