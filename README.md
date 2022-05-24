@@ -4,7 +4,7 @@ A Weekly Horoscope App
 
 ## Burç Yorumu Uygulaması
 
-Bu proje flutter kullanılarak yazılmıştır.
+Bu proje flutter kullanılarak geliştirilmiştir.
 
 - Günlük, haftalık, aylık burç yorumları
 - Yükselen burç hesaplama 
