@@ -18,7 +18,7 @@ Bu proje flutter kullanılarak geliştirilmiştir.
 
 - ## Burç Yorumları: 
 
-![Ornek_Resim](https://i.ibb.co/RP2nBqS/2.png)  ![Ornek_Resim](https://i.ibb.co/QPKzhP8/3.png)![Ornek_Resim](https://i.ibb.co/rk4GLp9/4.png)
+![Ornek_Resim](https://i.ibb.co/RP2nBqS/2.png)  |  ![Ornek_Resim](https://i.ibb.co/QPKzhP8/3.png)![Ornek_Resim](https://i.ibb.co/rk4GLp9/4.png)
 
 - ## Menu:
 
