@@ -14,30 +14,30 @@ Bu proje flutter kullanılarak geliştirilmiştir.
 
 - ## Burç Listesi:
 
-![Ornek_Resim](https://i.ibb.co/ph3Ljq0/1.png)
+![Ornek_Resim]()
 
 - ## Burç Yorumları: 
 
 Günlük Yorum  |  Haftalık Yorum | Aylık Yorum
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.ibb.co/RP2nBqS/2.png)  |  ![](https://i.ibb.co/QPKzhP8/3.png)  |  ![](https://i.ibb.co/rk4GLp9/4.png)
+![]()  |  ![]()  |  ![]()
 
 - ## Menu:
 
-![Ornek_Resim](https://i.ibb.co/8P4sHyd/5.png)
+![Ornek_Resim]()
 
 - ## Yükselen Burç Hesaplama
 
-![Ornek_Resim](https://i.ibb.co/mRsPmKP/6.png)
+![Ornek_Resim]()
 
 - ## Burç Uyumu Hesaplama:
 
-![Ornek_Resim](https://i.ibb.co/TcrR7D8/7.png)
+![Ornek_Resim]()
 
 - ## Burç Yorumu Hesaplama Detay:
 
-![Ornek_Resim](https://i.ibb.co/Gtxs13y/8.png)
+![Ornek_Resim]()
 
 - ## Kahve Falı(Yakında):
 
-![Ornek_Resim](https://i.ibb.co/ZzYyyTX/9.png)
+![Ornek_Resim]()
